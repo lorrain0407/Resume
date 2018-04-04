@@ -1,0 +1,227 @@
+%-------------------------
+% Resume in Latex
+% Author : Liu Lin
+%------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{CJK}
+\usepackage{graphicx}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+%\usepackage{fontspec}
+%\usepackage{hyperref}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+%\titleformat{\section}{
+%  \vspace{-4pt}\scshape\raggedright\large
+%}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+\definecolor{MSBlue}{rgb}{.31,.506,.741}
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{MSBlue}\titlerule \vspace{-5pt}]
+\titleformat*{\section}{\Large\bfseries\color{MSBlue}}
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeheading}[2]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+%      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\documentclass[UTF8]{article}
+%\usepackage{CTEX}
+%\setmainfont{Microsoft YaHei}
+%\documentclass[UTF8, nofonts]{ctexart}
+%\setCJKmainfont{微软雅黑}
+%\setmainfont{Microsoft YaHei}
+\begin{document}
+\begin{CJK}{GBK}{song}
+
+\begin{minipage}{.1\textwidth}
+\includegraphics[scale=0.6]{portrait.png}
+\end{minipage}%
+\begin{minipage}{1.5\textwidth}
+%------------------------------------------Personal Data---------------------------------------------%
+%\hspace*{13cm}Updated on \today \\ \\
+\begin{large}
+\hspace*{4cm}\textbf{刘霖  硕士}\vspace*{2mm}
+
+\hspace*{4cm}\textbf{软件工程  山东大学}\vspace*{2mm}
+
+\hspace*{4cm}\textbf{电话：}17861427309\vspace*{2mm}
+
+\hspace*{4cm}\textbf{邮箱：}lorrain0407@gmail.com\vspace*{2mm}
+
+\hspace*{4cm}\textbf{Github：}https://github.com/lorrain0407
+\end{large}
+\end{minipage}
+
+%%----------HEADING-----------------
+%\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%  \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%  \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+%\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+%\section{Education}
+\section*{教育背景}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {山东大学}{在读硕士研究生}
+      {软件工程专业；研究方向：计算机图形学，计算几何；排名：1/35}{2016.09 至今}
+      \resumeSubheading
+      {山东科技大学}{学士}
+      {数字媒体技术专业；排名：1/40}{2012.09 -- 2016.06}
+  \resumeSubHeadingListEnd
+
+
+%
+%--------PROGRAMMING SKILLS------------
+%\section{Programming Skills}
+\section*{个人技能}
+  \resumeSubHeadingListStart
+    \resumeSubItem{学术能力}
+      {在投论文1篇，专利4项，具有扎实的计算机图形学、计算几何基础。}
+    \resumeSubItem{编程语言}
+      {熟练掌握C++编程技巧；\\
+      \setlength{\parindent}{43pt}对C，C\#，Java，Javascript等编程语言有一定了解；\\
+      \setlength{\parindent}{43pt}能够使用Sql server软件对数据库进行操作；\\
+      \setlength{\parindent}{43pt}熟悉Unity 3D引擎、Android应用开发。}
+    \resumeSubItem{英语水平}
+      {四级：551、六级：548。}
+    \resumeSubItem{其他}
+      {有一定美术基础，能够使用Photoshop、CorelDraw等图片编辑软件，Premiere、Adobe Effect 等视频编辑软件；\\
+      \setlength{\parindent}{3em}能够使用3dmax 和maya等三维模型处理软件，熟悉3D打印和增材制造流程。}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+%\section{Experience}
+\section*{项目经历}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {可3D打印的立体二维码生成}{  }
+      {山东大学交叉研究中心}{2016.09至今}
+      \resumeItemListStart
+        \resumeItem{简要描述}
+          {提出一种可在3D打印模型上生成立体二维码，并可使用二维码设备直接扫描的方案。该方案可广泛应用于3D 打印工艺品标签识别，防伪，艺术创作等方面。}
+        \resumeItem{主要工作}
+          {使用包括CGAL、LIBIGL、BOOST GEOMETRY、MATLAB等几何处理与数值计算库与软件完成二维码仿真、优化，凹陷可见性计算，模型修复等。}
+          %\setlength{\parindent}{43pt}通过透视投影变换技术将平面二维码投影至主体模型，完成平面二维码的优化、立体二维码凹陷深度的优化以及模型修复等模块。}
+        \resumeItem{成果}
+          {\textbf{专利面向3D打印的自定义模型立体二维码生成方法及系统（201710031940.0）}\\
+          \setlength{\parindent}{26pt}\textbf{专利改进的面向3D打印的自定义模型立体二维码生成方法及系统（201710343611.X）}\\
+          \setlength{\parindent}{26pt}\textbf{专利一种可3D 打印的镂空二维码模型生成方法及系统（201710326073.3）}\\
+          \setlength{\parindent}{26pt}\textbf{论文Printable 3D-QR-Codes for Object Authentication （在投）}}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {个性化三维灯具在线定制系统的开发}{  }
+      {山东大学交叉研究中心}{2016.01-2016.08}
+      \resumeItemListStart
+        \resumeItem{简要描述}
+          {着眼于WebGL的应用，建立不需任何插件即可在Web界面嵌入交互式三维模型编辑的灯具模型定制系统，以解决3D打印技术普及和推广中面临的三维模型获取及编辑操作困难等问题。}
+        \resumeItem{主要工作}
+          {建立模型库，设计系统交互界面，采用boostrap 结合javascript和jQuery 实现系统前端界面设计；\\
+          \setlength{\parindent}{43pt}使用WebGL和Three.js实现浏览模型场景的搭建以及基本三维操作和模型的拼接，使用Node.js搭建后台。}
+        \resumeItem{成果}
+          {\textbf{专利一种面向3D打印的灯具三维在线设计系统（201610227304.0）}}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Unity3D游戏开发}{2015.07}
+      {上海第九城市信息技术有限公司}{}
+      \resumeItemListStart
+        \resumeItem{简要描述}
+          {基于Unity 3D游戏引擎，参与Android和Windows平台游戏开发。}
+        \resumeItem{主要工作}
+          {搭建游戏场景和角色，编写 C\#脚本，参与编写游戏中的碰撞检测、消息循环等机制，参与游戏用户体验等。}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+\section*{所获奖励}
+  \resumeSubHeadingListStart
+    \resumeheading
+      {研究生国家奖学金}{2017.10}
+
+    \resumeheading
+      {山东省优秀毕业生}{2016.04}
+
+    \resumeheading
+      {全国大学生英语竞赛二等奖}{2015.05}
+
+  \resumeSubHeadingListEnd
+
+
+
+\section*{自我评价}
+  \resumeSubHeadingListStart
+    \item{
+      \textbf{做事认真，责任心强，严谨务实，勤奋刻苦，有较强的学习能力和团队精神，敢于面对挑战，吃苦耐劳，适应性强。}
+    }
+  \resumeSubHeadingListEnd
+
+\end{CJK}
+%-------------------------------------------
+\end{document}
